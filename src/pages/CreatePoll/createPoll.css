@@ -1,4 +1,4 @@
-.createPollContainer{
+.createPollContainer {
     padding: var(--padding);
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
     flex-direction: column;
 }
 
-.createPollForm{
+.createPollForm {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +18,20 @@
     margin-top: 2rem;
 }
 
-.pollInputs{
+.pollInputs {
     width: 25rem !important;
 }
-.createPollbuttonsContainer{
+
+.createPollbuttonsContainer {
     display: flex;
     align-items: center;
     gap: 2rem;
     margin-top: 2rem;
+}
+
+@media (max-width:649px) {
+
+    .pollInputs {
+        width: 15rem !important;
+    }
 }

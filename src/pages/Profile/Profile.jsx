@@ -5,6 +5,7 @@ import { useAuth } from "../../context/AuthContext";
 import "./profile.css"; // Assuming you have a CSS file for styling
 import Button from "../../components/Button";
 import { toast } from "react-toastify";
+import User from "../../assets/user.svg";
 
 const Profile = () => {
   const { id } = useParams();
@@ -55,9 +56,9 @@ const Profile = () => {
     <div className="profileContainer">
       <div className="userDetails">
         <img
-          src={user.profilePicture || "/default-avatar.png"}
+          src={user.profilePicture || User}
           alt="Profile"
-          className="userImage"
+          className={`userImage ${!user.profilePicture && "noImageProfile"}`}
         />
         <div className="userInfo">
           <h2>{user.username}</h2>

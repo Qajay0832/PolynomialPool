@@ -1,11 +1,14 @@
 .input-wrapper{
     margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .label-input {
     text-transform: capitalize;
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
+    z-index: 1;
 }
 
 .custom-input {

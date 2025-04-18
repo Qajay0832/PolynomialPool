@@ -22,12 +22,19 @@
     border: 2px solid grey;
     object-fit: cover;
 }
-.userInfo{
+
+.userInfo {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.profilePollDetails{
+.profilePollDetails {
     margin: 1rem 0;
+}
+
+.noImageProfile {
+    background-color: black;
+    border: 2px solid var(--white);
+    box-shadow: var(--shadow);
 }
