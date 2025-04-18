@@ -1,0 +1,18 @@
+.viewComment{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: var(--shadow);
+    height: 13rem;
+    justify-content: space-between;
+    min-width: 25rem !important;
+    border-radius: 0.5rem;
+}
+
+.commentContainer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 0.2rem;
+}

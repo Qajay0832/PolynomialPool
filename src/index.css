@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Forma DJR Banner', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+:root {
+  --theme: #2970ff;
+  --black: #000;
+  --white: #fff;
+  --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --padding: 2.813rem 6.25rem 2.813rem 4.375rem;
+  --borderRadius: 0.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.custom-input {
+  border: 0px;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  border-radius: 0;
+}
+
+.custom-input {
+  margin-top: -1rem !important;
+}
+
+.custom-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-input:focus {
+  outline: none;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  border-radius: 0.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.input-flex input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0;
+}
+
+.input-flex input:hover {
+  outline: none;
+}
+
+.titles {
+  font-weight: 700;
+  font-size: 3rem;
+  width: max-content;
+  z-index: 1;
+}
+
+@media (min-width: 1200px) and (max-width: 1380px) {
+  * {
+    font-size: 1.075rem;
+  }
+
+  :root {
+    --padding: 2.5rem 4.75rem;
+  }
+
+}
+
+@media (min-width: 1070px) and (max-width:1216px) {
+  * {
+    font-size: 1.025rem;
+  }
+
+  :root {
+    --padding: 2.25rem 4.313rem;
+  }
+
+  .titles {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 850px) and (max-width:1069px) {
+  * {
+    font-size: 1rem;
+  }
+
+  :root {
+    --padding: 2rem 3.3rem;
+  }
+
+  .titles {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 650px) and (max-width:849px) {
+  * {
+    font-size: 0.9rem;
+  }
+
+  :root {
+    --padding: 1.4rem 2.2rem;
+  }
+
+  .titles {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width:649px) {
+  * {
+    font-size: 0.9rem;
+  }
+
+  :root {
+    --padding: 1.4rem 2.2rem;
+  }
+
+  .titles {
+    font-size: 2rem;
+  }
+}

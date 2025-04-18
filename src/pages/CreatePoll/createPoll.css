@@ -1,0 +1,29 @@
+.createPollContainer{
+    padding: var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
+    margin: var(--padding);
+    border-radius: var(--borderRadius);
+    flex-direction: column;
+}
+
+.createPollForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.pollInputs{
+    width: 25rem !important;
+}
+.createPollbuttonsContainer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
