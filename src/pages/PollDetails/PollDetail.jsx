@@ -6,7 +6,7 @@ import { useAuth } from "../../context/AuthContext";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 import "../Home/home.css";
-import "./pollDetail.css";
+import "./polldetail.css";
 import { toast } from "react-toastify";
 
 const PollDetail = () => {
